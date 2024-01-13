@@ -1,4 +1,5 @@
 /* Work Sans Font From Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap');
 
 /* Shared Styles */
@@ -54,6 +55,7 @@ nav li a{
 }
 
 /* banner-styles */
+
 .banner-content{
   max-width: 800px;
   text-align: center;
@@ -70,6 +72,7 @@ nav li a{
 }
 .banner img{
   width: 100%;
+  padding-bottom: 45px;
 }
 /* Media Query First */
 /* Mobile Devices Or Small Devices */
@@ -92,4 +95,61 @@ nav li a{
   header{
     padding: 50px;
   }
+}
+/* Main Styles */
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Teams Styles */
+
+.teams-container {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.teams-image-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  border-radius: 8px;
+}
+.teams-content{
+  padding-right: 75px;
+  padding-left: 75px;
+  width: auto;
+}
+/* Span section */
+
+.teams-title{
+  font-size: 2.7rem;
+}
+
+.first-span{
+color:#727272;
+font-weight: 500;
+row-gap: 10px;
+}
+
+.second-span{
+  color: #131313;
+font-weight: 700;
+}
+.third-span{
+  color: #FF900E;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* button section else */
+.button-extra{
+  margin-top: 53px;
+}
+
+/* teams description */
+
+.teams-description{
+  color: #727272;
 }
